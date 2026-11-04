@@ -31,6 +31,21 @@ body {
     box-shadow: 0 24px 55px rgba(17, 10, 36, 0.45);
 }
 
+.weather-visual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 18px;
+    min-height: 140px;
+}
+
+#weather-image {
+    width: 170px;
+    height: 120px;
+    object-fit: contain;
+    filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.2));
+}
+
 h1, h2, h3, p {
     margin: 12px 0;
 }
