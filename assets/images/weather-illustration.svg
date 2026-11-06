@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Weather illustration">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#d7d8ff"/>
+      <stop offset="100%" stop-color="#a4b9ff"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="64" height="64" rx="12" fill="url(#sky)" opacity="0.18"/>
+  <circle cx="48" cy="18" r="8" fill="#ffd76a"/>
+  <g fill="#f3f7ff">
+    <ellipse cx="21" cy="34" rx="15" ry="7"/>
+    <ellipse cx="30" cy="27" rx="13" ry="8"/>
+    <ellipse cx="39" cy="34" rx="15" ry="7"/>
+  </g>
+  <g fill="#dfe9ff" opacity="0.85">
+    <rect x="24" y="38" width="2" height="10" rx="1"/>
+    <rect x="30" y="38" width="2" height="10" rx="1"/>
+    <rect x="36" y="38" width="2" height="10" rx="1"/>
+  </g>
+</svg>
